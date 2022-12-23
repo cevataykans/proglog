@@ -1,0 +1,19 @@
+{
+    "CN": "client",
+    "hosts": [
+        ""
+    ],
+    "key": {
+        "algo": "rsa",
+        "size": 2048
+    },
+    "names": [
+        {
+            "C": "GER",
+            "L": "BAYERN",
+            "ST": "Munich",
+            "O": "Proglog CA",
+            "OU": "Distributed Services"
+        }
+    ]
+}
