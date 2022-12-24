@@ -74,7 +74,7 @@ func (l *Log) setup() error {
 func (l *Log) newSegment(off uint64) error {
 	s, err := newSegment(l.Dir, off, l.Config)
 	if err != nil {
-		return nil
+		return err
 	}
 
 	// Same !
